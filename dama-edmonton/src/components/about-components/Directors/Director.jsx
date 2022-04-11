@@ -31,40 +31,40 @@ export default class Director extends React.Component {
 
         return(
         <>
-            <section className="person-profile">
-                <h2>DAMA Edmonton Board of Directors</h2>
-                <div className="person-profile-flex">
-                    {presidentData.map((obj, id) => {
-                        return (
-                            <div className="person-profile-details">
-                            <Link className="navItem" to="/memberships" onClick="window.location.reload();">
-                                <h3>{obj.title}</h3>
-                                <img src={process.env.PUBLIC_URL + `/assets/images/profile-picture/${obj.imageName}`} alt="images"/>
-                                <h4>{obj.name}</h4>
-                                <p>{obj.position}</p>
-                            </Link>
-                            </div>
-                        )
-                    })}
-                </div>
+//             <section className="person-profile">
+//                 <h2>DAMA Edmonton Board of Directors</h2>
+//                 <div className="person-profile-flex">
+//                     {presidentData.map((obj, id) => {
+//                         return (
+//                             <div className="person-profile-details">
+//                             <Link className="navItem" to="/memberships" onClick="window.location.reload();">
+//                                 <h3>{obj.title}</h3>
+//                                 <img src={process.env.PUBLIC_URL + `/assets/images/profile-picture/${obj.imageName}`} alt="images"/>
+//                                 <h4>{obj.name}</h4>
+//                                 <p>{obj.position}</p>
+//                             </Link>
+//                             </div>
+//                         )
+//                     })}
+//                 </div>
 
-                <div className="person-profile">
-                    <h3>Vice President</h3>
-                    <div className="person-profile-flex">
-                        {vicePresidentData.map((obj, id) => {
-                            return (
-                                <div className="person-profile-details">
-                                <Link className="navItem" to="/memberships" onClick="window.location.reload();">
-                                    <img src={process.env.PUBLIC_URL + `/assets/images/profile-picture/${obj.imageName}`} alt="images"/>
-                                    <h4>{obj.name}</h4>
-                                    <p>{obj.position}</p>
-                                </Link>
-                                </div>
-                            )
-                        })}
-                    </div>
-                </div>
-            </section>
+//                 <div className="person-profile">
+//                     <h3>Vice President</h3>
+//                     <div className="person-profile-flex">
+//                         {vicePresidentData.map((obj, id) => {
+//                             return (
+//                                 <div className="person-profile-details">
+//                                 <Link className="navItem" to="/memberships" onClick="window.location.reload();">
+//                                     <img src={process.env.PUBLIC_URL + `/assets/images/profile-picture/${obj.imageName}`} alt="images"/>
+//                                     <h4>{obj.name}</h4>
+//                                     <p>{obj.position}</p>
+//                                 </Link>
+//                                 </div>
+//                             )
+//                         })}
+//                     </div>
+//                 </div>
+//             </section>
 
             <section className="person-profile">
                 <h3>Data Management - Data Science - Thought Leaders</h3>
